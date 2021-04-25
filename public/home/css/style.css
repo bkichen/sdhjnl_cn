@@ -1,0 +1,1553 @@
+.cashier_content,.cashier_head {
+	position: relative;
+	box-sizing: border-box
+}
+.cashier_content {
+	top: 30px;
+	width: 1032px;
+	margin: 0 auto;
+	border-radius: 4px;
+	border: 1px solid #c8ced1;
+	box-shadow: 2px 2px 3px #e7e7e7;
+	min-height: 480px;
+	background-color: #fff
+}
+
+.cashier_head {
+	width: 100%;
+	height: 78px;
+	border-bottom: 1px solid #f2f4f3;
+	cursor: default
+}
+
+.cashier_head_logo {
+	position: absolute;
+	top: 16px;
+	left: 24px;
+	width: 154px;
+	height: 46px;
+	
+}
+
+.cashier_head_right {
+	position: absolute;
+	right: 24px;
+	height: 78px;
+	padding-top: 25px;
+	box-sizing: border-box
+}
+
+.cashier_head_img {
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 10px;
+	background-size: cover;
+	display: inline-block
+}
+
+.cashier_center,.cashier_info {
+	width: 100%;
+	box-sizing: border-box
+}
+
+.cashier_head_name {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	vertical-align: top;
+	font-size: 14px;
+	color: #656565
+}
+
+.cashier_center {
+	padding: 0 24px
+}
+
+.cashier_info {
+	height: 162px;
+	padding: 24px 0 0
+}
+
+.cashier_info_logo {
+	width: 124px;
+	height: 124px;
+	background: url(https://live.ourmrp.com/public/home/img/image_22.png) 100% 100% no-repeat;
+	float: left
+}
+
+.cashier_info_right {
+	font-size: 14px;
+	line-height: 26px;
+	margin-left: 12px;
+	float: left
+}
+
+.cashier_info_title {
+	color: #9f9f9f
+}
+
+.cashier_info_msg {
+	float: left;
+	width: 357px
+}
+
+.cashier_info_rmsg {
+	float: left
+}
+
+.cashier_inset {
+	min-height: 100px;
+	width: 984px;
+	background-color: #fcfcfc;
+	border: 1px solid #ececec;
+	box-sizing: border-box;
+	padding: 22px 12px 24px;
+	color: #252525
+}
+
+.cashier_bank_line {
+	width: 100%;
+	border-top: 1px solid #ececec;
+	margin-top: 24px
+}
+
+.cashier_bank_list {
+	width: 100%;
+	box-sizing: border-box
+}
+
+.cashier_bank_top {
+	margin: 16px 0
+}
+
+.cashier_bank_back.up {
+	margin: 11px 0 0 916px;
+	color: #3299c7;
+	font-size: 14px;
+	cursor: pointer
+}
+
+.cashier_bank_back.down {
+	margin: 11px 0 0 863px;
+	color: #3299c7;
+	font-size: 14px;
+	cursor: pointer;
+	width: 84px
+}
+
+.changeCss {
+	height: 42px;
+	overflow: hidden
+}
+
+.cashier_checkbox {
+	cursor: pointer;
+	margin-bottom: 28px
+}
+
+.cashier_checkbox_icon {
+	float: left;
+	width: 14px;
+	height: 14px;
+	background: url(https://live.ourmrp.com/public/home/img/icon.png) -9px -9px;
+	margin-right: 8px;
+	border-radius: 4px
+}
+
+.cashier_checkbox_icon.open {
+	background: url(https://live.ourmrp.com/public/home/img/icon.png) -9px -41px
+}
+
+.cashier_checkbox_txt {
+	float: left;
+	height: 14px;
+	line-height: 14px
+}
+
+.checkbox_choice.open {
+	background-color: #00a1d6
+}
+
+.cashier_pay_way {
+	width: 100%;
+	height: 30px
+}
+
+.cashier_pay_icon span {
+	border-radius: 4px;
+	margin-right: 9px;
+	border: 1px solid #ddd;
+	width: 150px;
+	height: 42px;
+	box-sizing: border-box;
+	display: inline-block;
+	cursor: pointer
+}
+
+.cashier_pay_icon span:last-child {
+	margin-right: 0
+}
+
+.cashier_checked {
+	border-color: #2996C4!important
+}
+
+.cashier_alipay {
+	background: url(https://live.ourmrp.com/public/home/img/logo_alipay.png) center no-repeat
+}
+
+.cashier_paypal {
+	background: url(https://static-s.bilibili.com/bpay/img/logo_paypal.png) center no-repeat
+}
+
+.cashier_visa {
+	background: url(https://static-s.bilibili.com/bpay/img/logo_visa.png) center no-repeat
+}
+
+.cashier_bank {
+	background: url(https://live.ourmrp.com/public/home/img/logo_unionpay.png) center no-repeat
+}
+
+.cashier_wechat {
+	background: url(https://static-s.bilibili.com/bpay/img/logo_weixin.png) -4px -10px no-repeat
+}
+
+.cashier_bb {
+	background: url(https://live.ourmrp.com/public/home/img/image_bb.png) center no-repeat
+}
+
+.cashier_bottom {
+	margin-top: 24px;
+	border-top: 1px solid #f2f4f3;
+	min-height: 148px;
+	position: relative
+}
+
+.cashier_pay_qrcode {
+	width: 168px;
+	height: 160px;
+	overflow: hidden;
+	margin: 8px 0 0 24px
+}
+
+.cashier_qrcode_name {
+	margin: 8px 0 0 66px
+}
+
+.wechat {
+	width: 168px;
+	height: 160px;
+	display: none
+}
+
+.alipay {
+	margin: -77px 0 0 -66px;
+	position: relative
+}
+
+#iframeQrcode {
+	border: 0;
+	-webkit-transform: scale(.68);
+	-moz-transform: scale(.68);
+	-o-transform: scale(.68);
+	transform: scale(.68);
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=.6, M12=0, M21=0, M22=.6, Dx=0, Dy=0)
+}
+
+.cashier_bottom_left {
+	margin-bottom: 16px;
+	display: none
+}
+
+.cashier_bottom_right {
+	position: absolute;
+	right: 0;
+	bottom: 98px;
+	box-sizing: border-box;
+	padding-right: 24px;
+	font-size: 14px;
+	width: 214px
+}
+
+.cashier_bb_balance {
+	display: none;
+	color: #9f9f9f;
+	margin-bottom: 10px
+}
+
+.cashier_bb_num {
+	float: right
+}
+
+.cashier_button {
+	position: absolute;
+	right: 24px;
+	bottom: 32px
+}
+
+.cashier_all_num {
+	color: #3299c7;
+	font-size: 20px;
+	float: right;
+	font-weight: 700;
+	margin-top: -4px
+}
+
+.cashier_bank_middle span {
+	width: 150px;
+	height: 42px;
+	display: inline-block;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-right: 9px;
+	margin-bottom: 9px;
+	overflow: hidden;
+	cursor: pointer;
+	text-align: center
+}
+
+.cashier_bank_middle span img {
+	margin: 6px 0 0 6px
+}
+
+.cashier_bank_click {
+	border-color: #2996c4!important
+}
+
+.cashier_success_icon {
+	margin: 42px auto 0;
+	background: url(https://live.ourmrp.com/public/home/img/image_success.png) no-repeat;
+	width: 467px;
+	height: 282px
+}
+
+.cashier_success_msg {
+	width: 100%;
+	margin-top: 24px;
+	font-size: 30px
+}
+
+.cashier_success_pay {
+	font-size: 14px;
+	color: #3299c7;
+	display: inline-block;
+	margin: 16px 0 36px 430px
+}
+
+.wechat_head {
+	width: 100%;
+	font-size: 16px;
+	margin-top: 24px;
+	text-align: center;
+}
+
+.wechat_head_info {
+	color: #3299c7
+}
+
+.wechat_qrcode {
+	width: 260px;
+	height: 260px;
+	margin: 16px auto 0;
+	border: 1px solid #ececec;
+	box-sizing: border-box;
+	padding: 5px 0 0 5px
+}
+
+.wechat_btn {
+	width: 306px;
+	height: 55px;
+	margin: 8px auto 24px;
+	background-color: #fbfbfb;
+	border: 1px solid #e3e3e3;
+	border-radius: 6px;
+	box-sizing: border-box;
+	padding: 12px;
+	font-size: 16px
+}
+
+.wechat_btn_icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url(../images/icon.png) -34px -2px no-repeat
+}
+
+.wechat_btn_info {
+	display: inline-block;
+	vertical-align: 56%;
+	margin-left: 4px;
+	cursor: default
+}
+
+.ieHead {
+	width: 40px;
+	height: 40px
+}
+
+.cashier_alipay_info {
+	margin-top: 16px;
+	cursor: default
+}
+
+.cashier_alipay_info i {
+	font-weight: 700;
+	color: #fe0000
+}
+
+.hide {
+	display: none
+}
+
+
+
+/* CSS Document Start*/
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+select,
+button,
+textarea,
+iframe,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+
+ul,
+li,
+dl,
+dd,
+dt {
+  list-style-type: none;
+}
+
+i,
+em,
+cite {
+  font-style: normal;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  font-family: "微软雅黑";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear,
+.cle {
+  clear: both;
+}
+
+a,
+area {
+  blr: expression(this.onFocus=this.blur())
+}
+
+a:focus,
+input {
+  outline: none;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('https://live.ourmrp.com/public/home/css/fonts/icomoon.eot?8p5pb7');
+  src: url('https://live.ourmrp.com/public/home/css/fonts/icomoon.eot?8p5pb7#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('https://live.ourmrp.com/public/home/css/fonts/icomoon.woff?8p5pb7') format('woff'),
+    url('https://live.ourmrp.com/public/home/css/fonts/icomoon.svg?8p5pb7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*[class^="icon"], [class*=" icon"] {*/
+/*!* use !important to prevent issues with browser extensions that change fonts *!*/
+/*font-family: 'icomoon' !important;*/
+/*speak: none;*/
+/*font-style: normal;*/
+/*font-weight: normal;*/
+/*font-variant: normal;*/
+/*text-transform: none;*/
+/*line-height: 1;*/
+
+/*!* Better Font Rendering =========== *!*/
+/*-webkit-font-smoothing: antialiased;*/
+/*-moz-osx-font-smoothing: grayscale;*/
+/*}*/
+
+[class^="icon"],
+[class*=" icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/**************/
+/*@media only screen and (min-width: 1680px) {*/
+/* header start */
+.headerholder {
+  height: 82px;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  height: 80px;
+  border-bottom: 2px solid #ff2938;
+  border-image: -webkit-linear-gradient(#ff2938, #fe646d) 30 30;
+  border-image: -moz-linear-gradient(#ff2938, #fe646d) 30 30;
+  border-image: -ms-linear-gradient(#ff2938, #fe646d) 30 30;
+  border-image: -o-linear-gradient(#ff2938, #fe646d) 30 30;
+  border-image: linear-gradient(#ff2938, #fe646d) 30 30;
+  background: -webkit-linear-gradient(180deg, #ffffff, #f5f5f5);
+  background: -moz-linear-gradient(180deg, #ffffff, #f5f5f5);
+  background: -ms-linear-gradient(180deg, #ffffff, #f5f5f5);
+  background: -o-linear-gradient(180deg, #ffffff, #f5f5f5);
+  background: linear-gradient(180deg, #ffffff, #f5f5f5);
+}
+
+.header-warpper {
+  min-width: 1240px;
+  background: linear-gradient(180deg, #ffffff, #f5f5f5);
+  width: 1350px;
+  height: 45px;
+  margin: 0 auto;
+  padding: 17px 0 18px;
+  clear: both;
+  /* position: fixed; */
+}
+
+.header-warpper .logo {
+  float: left;
+  overflow: hidden;
+}
+
+.header-warpper .logo img {
+  height:55px;
+ 
+}
+
+.header-warpper .nav-list {
+  float: left;
+  margin: 0 30px;
+  overflow: hidden;
+}
+
+.header-warpper .nav-list li {
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  margin: 4px 3px 0;
+  overflow: hidden;
+}
+
+.header-warpper .nav-list li a {
+  font-size: 18px;
+  color: #5a5a5a;
+  display: block;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+.header-warpper .nav-list li a:hover {
+  color: #fff;
+  background: -webkit-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: -moz-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: -ms-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: -o-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: linear-gradient(90deg, #ff3240, #fe5f69);
+}
+
+.header-warpper .nav-list li.curr a {
+  color: #fff;
+  background: -webkit-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: -moz-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: -ms-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: -o-linear-gradient(90deg, #ff3240, #fe5f69);
+  background: linear-gradient(90deg, #ff3240, #fe5f69);
+}
+
+.header-warpper .search {
+  position: relative;
+  overflow: hidden;
+  float: right;
+  padding: 8px 0;
+  margin-right: 30px;
+}
+
+.header-warpper .search .keyWords {
+  width: 130px;
+  height: 27px;
+  padding: 0 43px 0 15px;
+  background: transparent;
+  border: 1px solid #fe4f5a;
+  border-radius: 30px;
+}
+
+.header-warpper .search .searchBtn {
+  position: absolute;
+  right: 0;
+  top: 9px;
+  height: 27px;
+  width: 43px;
+  border: 0;
+  cursor: pointer;
+
+  background: url(../images/header-search.png) center center no-repeat;
+
+}
+
+.header-warpper .other {
+  padding-left: 25px;
+  /*background: url(../images/header-user.png) left center no-repeat;*/
+  overflow: hidden;
+  padding: 5px 0 5px 25px;
+  float: right;
+}
+
+.header-warpper .other a {
+  height: 26px;
+  line-height: 26px;
+  display: block;
+  float: left;
+  font-size: 16px;
+  color: #5a5a5a;
+}
+
+.header-warpper .other a:hover {
+  color: #ff3240;
+}
+
+.header-warpper .other span {
+  display: block;
+  float: left;
+  margin: 0 5px;
+  color: #5a5a5a
+}
+
+.hd-login {
+  float: right;
+  height: 36px;
+  margin: 4px 0 0;
+}
+
+.already-login {
+  position: relative;
+  height: 36px;
+}
+
+.already-login .link {
+  display: block;
+  overflow: hidden;
+  color: #5a5a5a;
+  height: 36px;
+  line-height: 36px;
+  float: left;
+}
+
+.already-login .icon-more {
+  display: block;
+  width: 12px;
+  height: 16px;
+  float: left;
+  margin: 10px 0 10px 0px;
+  cursor: pointer;
+  overflow: hidden;
+  background: url(../show/images/linTmp/header-slide.png) center center no-repeat;
+}
+
+.already-login .icon-avatar {
+  float: left;
+  display: block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #fe4f5a;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+
+.already-login .icon-avatar img {
+  width: 30px;
+  height: 30px;
+}
+
+.already-login .nickname {
+  float: left;
+  overflow: hidden;
+  width: 70px;
+  height: 36px;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.userInfoMasker {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: transparent;
+  display: none;
+}
+@media screen and (min-width: 1367px) {
+    .userinfo {
+        display: none;
+        left: -100px;
+        position: absolute;
+        top: 71px;
+        z-index: 10;
+        width: 302px;
+        background: rgba(249, 249, 249, 1);
+        box-sizing: border-box;
+        background: #F9F9F9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px gray;
+        /* display:none; */
+      }
+      
+      .userinfo::before {
+        position: absolute;
+        top: -5px;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: #F9F9F9;
+        left: 50%;
+        transform: rotate(45deg);
+      }
+}
+
+
+@media screen and (max-width: 1366px) {
+    .userinfo {
+        display: none;
+        left: -186px;
+        position: absolute;
+        top: 44px;
+        z-index: 10;
+        width: 302px;
+        background: rgba(249, 249, 249, 1);
+        box-sizing: border-box;
+        background: #F9F9F9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px gray;
+        /* display:none; */
+      }
+      
+      .userinfo::before {
+        position: absolute;
+        top: -5px;
+        content: '';
+        width: 10px;
+        height: 10px;
+        background-color: #F9F9F9;
+        left: 65%;
+        transform: rotate(45deg);
+      }
+}
+
+
+
+
+
+.userinfo .maininfo {
+  padding: 15px 0 15px 15px;
+  /* height: 80px; */
+}
+
+.userinfo .avadar {
+  float: left;
+  width: 68px;
+  height: 68px;
+}
+
+.userinfo .avadar img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+
+}
+
+.userinfo .info_details {
+  margin-left: 80px;
+}
+
+.userinfo .info_details .sex-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url('https://live.ourmrp.com/public/front/images/male@2x.png') no-repeat center center /100% 100%;
+}
+
+.userinfo .info_details .sex-icon.famale {
+  background: url('https://live.ourmrp.com/public/front/images/famale@2x.png') no-repeat center center /100% 100%;
+}
+
+.userinfo .info_details .name {
+  color: #4B4B4B;
+  font-size: 14px;
+
+}
+
+.userinfo .info_details .level {
+  color: #CACACA;
+  font-size: 14px;
+  line-height: 30px;
+
+}
+
+.userinfo .info_details .level .zuanshi-icon {
+  display: inline-block;
+  /* width: 13px;height: 13px; */
+  padding-left: 16px;
+  margin-right: 10px;
+  background: url('https://live.ourmrp.com/public/front/images/userCenter/index-gift.png')no-repeat left center /12px 12px;
+  color: #5B5B5B;
+  font-size: 12px;
+
+}
+
+.userinfo .info_details .progress {
+  display: inline-block;
+  width: 45px;
+  height: 5px;
+  background: rgba(231, 231, 231, 1);
+  border-radius: 4px;
+  margin: 0 5px;
+  vertical-align: 3px;
+
+}
+
+.userinfo .info_details .progress .percent {
+  height: 5px;
+  background: rgba(254, 85, 95, 1);
+  border-radius: 4px;
+}
+
+.userinfo .info_details .sign {
+  color: #5B5B5B;
+  font-size: 12px;
+  padding-right: 15px;
+
+}
+
+.userinfo .info_details .sign-txt {
+  word-break: break-word;
+
+}
+
+.userinfo .info_details .sign .edit_btn {
+  color: #5B5B5B;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: url('https://live.ourmrp.com/public/front/images/signature@2x.png') no-repeat center center /100% 100%;
+}
+
+.userinfo .info_details .sign-edit-conn {
+  display: none;
+}
+
+.userinfo .info_details .sign-edit-conn .sign-input {
+  border: 1px solid rgba(255, 0, 0, 0.562);
+  padding: 3px;
+}
+
+.userinfo .info_details .sign .edit_sure_btn {
+  font-size: 12px;
+  padding: 0px 3px;
+  margin-right: 10px;
+  margin-top: 5px;
+  /* border :1px solid red; */
+  color: red;
+  cursor: pointer;
+}
+
+.userinfo .info_details .sign .edit_cancel_btn {
+  font-size: 12px;
+  padding: 0px 3px;
+  margin-right: 10px;
+  margin-top: 5px;
+  color: gray;
+  cursor: pointer;
+}
+
+.userinfo .new-task-title {
+  height: 41px;
+  line-height: 41px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #828080;
+  border-bottom: 1px solid #F5F5F5;
+  background-color: white;
+  padding: 0 21px;
+}
+
+.userinfo .new-task-title .sign-icon {
+  cursor: pointer;
+  width: 49px;
+  height: 21px;
+  float: right;
+  margin-top: 10px;
+  background: url('https://live.ourmrp.com/public/front/images/checkin@2x.png') no-repeat center center /100% 100%;
+}
+
+.userinfo .new-task-title .sign-icon.already {
+
+  background: url('https://live.ourmrp.com/public/front/images/registered@2x%20.png') no-repeat center center /100% 100%;
+}
+
+.userinfo .task-list {
+  height: 126px;
+  display: flex;
+  background-color: #fff;
+
+}
+
+.userinfo .task-item {
+  flex: 1;
+}
+
+.task-item-icon {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.task-item-icon img {
+  width: 38px;
+  height: 38px;
+}
+
+.task-item-name {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #242424;
+  text-align: center;
+}
+
+.task-item-status {
+  color: #A4A4A4;
+  text-align: center;
+  font-size: 12px;
+}
+
+.task-item-status .icon-status {
+  margin-top: 10px;
+  vertical-align: -2px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin-right: 5px;
+  background: url('https://live.ourmrp.com/public/front/images/finish_n@2x.png') no-repeat center center /100% 100%;
+}
+
+.task-item-status.finished {
+  color: #6D7278;
+}
+
+.task-item-status.finished .icon-status {
+  color: #6D7278;
+  background: url('https://live.ourmrp.com/public/front/images/finish_y@2x.png')no-repeat center center /100% 100%;
+}
+
+
+.userinfo .short-links {
+  margin-top: 10px;
+  display: flex;
+  padding: 10px;
+  background-color: white;
+}
+
+.short-links-item {
+  flex: 1;
+}
+
+.short-links-item .short-links-icon {
+  height: 39px;
+  text-align: center;
+}
+
+.short-links-item .short-links-icon img {
+  width: 39px;
+  height: 39px;
+}
+
+.short-links-item .short-links-name {
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.short-links-item:hover .short-links-name {
+  color: red;
+}
+
+.short-links-item.disabled:hover {
+  cursor: not-allowed;
+}
+
+.short-links-item.disabled:hover .short-links-name {
+  color: gray;
+}
+
+
+.userinfo .logout {
+  width: 282px;
+  height: 37px;
+  line-height: 37px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px -2px 4px 0px rgba(231, 231, 231, 0.5);
+  color: #929292;
+  border-radius: 19px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.userinfo .logout:hover {
+  color: white;
+  background: linear-gradient(90deg, #ff3240, #fe5f69);
+}
+
+.huajiaodou {
+  display: none;
+}
+
+
+.suofang {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.267);
+
+}
+
+.suofang-containner {
+  position: absolute;
+
+  /* height:380px; */
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  /* transform:translate(-50%,-50%); */
+  /* border-radius:4px; */
+  background: url('https://live.ourmrp.com/public/front/images/zoom.png') no-repeat center center /100% 100%;
+}
+
+.suofang-close {
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 8%;
+  height: 8%;
+  border-radius: 50%;
+  /* background: url('../../front/images/close.png') no-repeat center center /100% 100%; */
+}
+
+/* .suofang-title{
+    width: 100%;
+    line-height: 37px;
+    height: 178px;
+    color: #999999;
+    text-align: center;
+    padding: 10px;
+
+  }
+  .suofang-title img{height: 178px;}
+  .suofang-body{
+    background-color: #fff;
+  }
+  .suofang-body-h1{
+    color: #242424;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .suofang-body-p{
+    color:#595959;
+    line-height: 24px;
+    font-size: 12px;
+  }*/
+.suofang-iknow {
+  position: absolute;
+  cursor: pointer;
+  left: 16%;
+  bottom: 5.935%;
+  width: 66.259%;
+  height: 11.259%;
+
+}
+
+/* 收藏提示 */
+.collect_tip_dia {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.267);
+  text-align: center;
+}
+
+.collect_tip_containner {
+  position: absolute;
+  width: 397px;
+  height: 280px;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background: white;
+}
+
+
+
+.collect_tip_title {
+  height: 49px;
+  background: rgba(244, 244, 244, 1);
+  border-radius: 4px 4px 0px 0px;
+  line-height: 49px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.collect_tip_close {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: url('../../front/images/close.png') no-repeat center center /100% 100%;
+}
+
+.collect_tip_body_p {
+  margin-top: 22px;
+}
+
+.collectImg {
+  width: 70px;
+  margin-top: 30px;
+}
+
+.collect_tip_iknow {
+  width: 259px;
+  height: 47px;
+  background: rgba(254, 41, 78, 1);
+  border-radius: 4px;
+  line-height: 47px;
+  color: white;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* 直播推荐，主播回放 */
+
+.nolive-dia {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  
+  text-align: center;
+  z-index: 10;
+  display: none;
+}
+.nolive-dia-warpper{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0,.6);
+
+  
+}
+.nolive-dia-container {
+  position: absolute;
+  width: 379px;
+  /* height: 280px; */
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background: white;
+  z-index: 11;
+ 
+}
+
+.nolive-dia-title {
+  height: 49px;
+  background: rgba(244, 244, 244, 1);
+  border-radius: 4px 4px 0px 0px;
+  text-align: center;
+  line-height: 49px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
+}
+
+.nolive-dia-body {
+  text-align: center;
+  color: #4B4B4B
+}
+
+.nolive-dia-body P {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 9px;
+  color: #4B4B4B
+}
+.nolice-dia-footer{
+  margin: 25px auto 16px;
+  overflow: hidden;
+}
+.nolive-dia-submit {
+  width: 259px;
+  height: 47px;
+  font-size: 18px;
+  line-height: 47px;
+  text-align: center;
+  background: rgba(254, 41, 78, 1);
+  border-radius: 4px;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.nolive-dia-cancel{
+  width:259px;
+  height:47px;
+  margin: 0 auto;
+  background:rgba(234,234,234,1);
+  border-radius:4px;
+  color:rgba(63,63,63,1);
+  font-size: 18px;
+  line-height: 47px;
+  text-align: center;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+/* header end */
+
+
+/* footer start */
+#footer {
+  border-top: 2px solid #ff2938;
+  background: #fff;
+}
+
+.footer-warpper {
+  height: auto;
+  width: 1240px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footer-main {
+  height: auto;
+  width: 1700px;
+  margin: 0 auto;
+  padding: 20px 20px 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.footer-nav {
+  width: 634px;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+.footer-nav dt {
+  clear: both;
+  padding-top: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-nav dd {
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+
+.footer-nav dd div {
+  display: block;
+  width: 132px;
+  padding-top: 90px;
+  margin-right: 26px;
+  overflow: hidden;
+}
+
+.footer-nav dd div strong {
+  font-size: 22px;
+  display: block;
+  color: #fe555f;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-nav dd div span {
+  font-size: 14px;
+  display: block;
+  color: #595959;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-nav dd:nth-of-type(1) div {
+  background: url('../../front/images/footer-icon1.png') center top no-repeat;
+}
+
+.footer-nav dd:nth-of-type(2) div {
+  background: url('../../front/images/footer-icon2.png') center top no-repeat;
+}
+
+.footer-nav dd:nth-of-type(3) div {
+  background: url('../../front/images/footer-icon33.png') center top no-repeat;
+}
+
+.footer-nav dd:nth-of-type(4) div {
+  background: url('../../front/images/footer-icon4.png') center top no-repeat;
+  margin-right: 0;
+}
+
+.footer-other {
+  float: left;
+  margin-left: 20px;
+  /* overflow:hidden; */
+}
+
+.footer-other dt {
+  font-size: 18px;
+  color: #595959;
+  border-bottom: 1px solid #dddddd;
+  overflow: hidden;
+  /* height:40px; */
+  line-height: 40px;
+  margin-bottom: 8px;
+}
+
+.footer-other .clearfix {
+  width: 292px;
+  overflow: hidden;
+}
+
+.footer-other .fl {
+  float: left;
+}
+
+.footer-other .fr {
+  float: left;
+  margin-left: 5px;
+}
+
+.footer-other dd {
+  padding-left: 30px;
+  /* height:34px; */
+  line-height: 25px;
+  margin-bottom: 3px;
+  overflow: hidden;
+  /* color:#787878;
+    font-size:14px; */
+}
+
+.footer-other dd span {
+  /* display:block; */
+  color: #787878;
+  font-size: 14px;
+}
+
+.footer-other .icon-email {
+  background: url('../../front/images/footer-email.png') left 7px no-repeat /20px 15px;
+}
+
+.footer-other .icon-wechat {
+  background: url('../../front/images/footer-wechat.png') left 3px no-repeat /23px 18px;
+}
+
+.footer-other .icon-soso {
+  background: url('https://live.ourmrp.com/public/front/images/footer-soso.png') left center no-repeat /20px 15px;
+}
+
+.footer-other .icon-skype {
+  background: url('../../front/images/footer-skype.png') left center no-repeat /21px 18px;
+}
+
+.footer-copyright {
+  padding: 5px 0;
+  color: #595959;
+  font-size: 14px;
+  text-align: center;
+  height: 26px;
+  line-height: 26px;
+  display: none;
+}
+
+/* footer end */
+
+
+/* page start */
+#page {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.page-info,
+.jump-info {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.page-info li {
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+}
+
+.page-info li a {
+  font-size: 14px;
+  color: #666;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #d3d3d4;
+}
+
+.page-info li a:hover {
+  color: #fff;
+  background: #ff2f3d;
+  border: 1px solid #ff2f3d;
+}
+
+.page-info li.curr a {
+  color: #fff;
+  background: #ff2f3d;
+  border: 1px solid #ff2f3d;
+}
+
+.page-info li.ellipsis a {
+  border: 0;
+  background: no-repeat;
+}
+
+.page-info li.ellipsis a:hover {
+  color: #666;
+}
+
+.jump-info li {
+  float: left;
+  margin: 0 2px;
+  font-size: 14px;
+  color: #666;
+  height: 42px;
+  line-height: 42px;
+  overflow: hidden;
+}
+
+.jump-info li .jumpTxt {
+  width: 72px;
+  height: 40px;
+  display: block;
+  background: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-radius: 5px;
+  border: 1px solid #d3d3d4;
+}
+
+.jump-info li .jumpBtn {
+  width: 64px;
+  height: 40px;
+  display: block;
+  background: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-radius: 5px;
+  border: 1px solid #d3d3d4;
+}
+
+input {
+    color: black;
+}
+
+.endnav p {
+    margin-bottom: 5px;
+    text-align: center;
+    color: #000;
+}
+
+
+
+/* page end */
